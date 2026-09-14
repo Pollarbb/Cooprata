@@ -1,0 +1,87 @@
+.entry-page{min-height:100svh;padding:48px 32px;display:flex;align-items:center;justify-content:center;background:#171719;color:#24221b;font-family:Inter,sans-serif}
+.entry-shell{width:1180px;max-width:100%;min-height:710px;display:grid;grid-template-columns:1fr 1fr;background:white;box-shadow:0 25px 65px #00000035}
+.entry-form{display:flex;flex-direction:column;padding:55px clamp(30px,5vw,72px)}
+.entry-logo{width:188px;max-width:100%;height:auto}
+.entry-content{margin:auto 0;padding:55px 0}
+.entry-eyebrow{font-size:9px;letter-spacing:.19em;color:#8c8064;font-weight:600}
+.entry-content h1{font-size:30px;line-height:1.2;letter-spacing:-1.2px;margin:15px 0 16px;font-weight:700}
+.entry-description{font-size:12px;line-height:1.9;color:#817b6d;margin:0 0 34px}
+.entry-options{border:0;padding:0;margin:0;min-width:0}
+.entry-options legend{font-size:11px;font-weight:600;margin-bottom:12px}
+.entry-option{display:flex;gap:13px;align-items:center;border:1px solid #e8e3d8;border-radius:12px;padding:17px 14px;margin-bottom:12px;cursor:pointer;position:relative;transition:background .18s,border-color .18s}
+.entry-option:hover{border-color:#c8a84b;background:#fdfbf5}
+.entry-option.is-selected{border-color:#c8a84b;background:#faf6e9}
+.entry-option input{position:absolute;opacity:0;width:1px;height:1px}
+.entry-option:focus-within{outline:3px solid #dcc778;outline-offset:3px}
+.entry-option-icon{width:37px;height:37px;border-radius:9px;background:#f4eedb;color:#ad892d;display:grid;place-items:center;flex-shrink:0}
+.entry-option-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.entry-option-text{display:flex;flex-direction:column;gap:6px;flex:1}
+.entry-option-text strong{font-size:12px;font-weight:600}
+.entry-option-text small{font-size:9px;color:#8c826b;line-height:1.5}
+.entry-radio{width:16px;height:16px;border:1px solid #dfd7c3;border-radius:50%;flex-shrink:0}
+.is-selected .entry-radio{border:5px solid #c8a84b;background:white}
+.entry-submit{width:100%;border:0;border-radius:30px;background:#c8a84b;color:#19170f;font:inherit;font-size:12px;font-weight:600;padding:17px 24px;cursor:pointer;margin-top:13px;display:flex;justify-content:center;align-items:center;gap:15px;transition:background .2s}
+.entry-submit:hover{background:#b9983e}
+.entry-submit:focus-visible{outline:3px solid #dcc778;outline-offset:3px}
+.entry-submit span{font-size:17px;line-height:1}
+.entry-login-note{font-size:9px;color:#938b78;text-align:center;margin:17px 0 0;line-height:1.6}
+.entry-footer{font-size:9px;color:#938b78}.entry-footer span{padding:0 8px}
+.entry-art{background:#111113;position:relative;overflow:hidden;color:white;display:flex;flex-direction:column;justify-content:center;padding:35px 25px 45px}
+.entry-stairs{position:absolute;width:190px;height:210px;background:#343023;clip-path:polygon(0 0,100% 0,100% 33%,66% 33%,66% 66%,33% 66%,33% 100%,0 100%);opacity:.75}
+.entry-stairs-top{top:0;left:0}.entry-stairs-bottom{bottom:0;right:0;transform:rotate(180deg)}
+.entry-illustration{position:relative;height:380px;width:100%;max-width:470px;margin:0 auto}
+.entry-orbit{position:absolute;width:220px;height:220px;border:2px solid #54472c;border-radius:50%;top:95px;left:115px;box-shadow:0 0 0 28px #1b1a17,0 0 0 30px #3a3323}
+.entry-chart-card{position:absolute;top:155px;left:5px;width:315px;background:white;color:#24221b;padding:24px;box-shadow:0 18px 35px #00000030;transform:rotate(-3deg)}
+.entry-mock-label{font-size:7px;letter-spacing:.1em;color:#978c72}
+.entry-mock-heading{font-size:14px;font-weight:600;margin-top:10px;letter-spacing:-.3px}
+.entry-chart{width:100%;display:block;margin-top:20px}
+.entry-chart-months{display:flex;justify-content:space-between;font-size:8px;color:#978c72;margin-top:10px}
+.entry-goal-card{position:absolute;right:6px;top:30px;width:185px;background:white;color:#27241c;box-shadow:0 15px 35px #00000030;display:flex;align-items:center;flex-direction:column;padding:23px 16px 25px;transform:rotate(3deg)}
+.entry-goal-title{font-size:15px;font-weight:600;align-self:flex-start}
+.entry-goal-ring{margin:22px 0 16px;width:100px;height:100px;border:9px solid #f5f0df;border-bottom-color:#c8a84b;border-right-color:#c8a84b;border-radius:50%;display:grid;place-items:center}
+.entry-goal-ring svg{width:40px;height:40px;stroke:#c8a84b;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.entry-goal-card>span:not(:first-child){font-size:10px;color:#968b71}.entry-goal-card>strong{font-size:14px;margin-top:8px}
+.entry-bubble{position:absolute;width:57px;height:57px;background:white;display:grid;place-items:center;border-radius:50%;box-shadow:0 12px 24px #00000030}
+.entry-bubble-chart{left:43px;top:44px;color:#bd9b40;font-size:29px}.entry-bubble-check{right:22px;bottom:4px;color:#bd9b40;font-size:23px}
+.entry-mini-tag{position:absolute;left:32px;bottom:-21px;background:white;color:#877752;font-size:9px;padding:12px 18px;border-radius:30px;box-shadow:0 8px 20px #00000030;display:flex;gap:8px;align-items:center}
+.entry-mini-tag span{width:6px;height:6px;border-radius:50%;background:#c8a84b}
+.entry-art-caption{text-align:center;position:relative;margin-top:55px}
+.entry-art-caption h2{font-size:27px;line-height:1.25;letter-spacing:-.8px;margin:0 0 18px;font-weight:600}
+.entry-art-caption p{font-size:11px;line-height:1.9;color:#bcb39c;margin:0}
+.entry-dots{display:flex;gap:6px;justify-content:center;margin-top:30px}.entry-dots i{width:5px;height:5px;background:#ffffff44;border-radius:5px}.entry-dots i:first-child{width:17px;background:white}
+@media(max-width:1000px){.entry-page{padding:28px 20px}.entry-form{padding:38px 30px}.entry-content h1{font-size:26px}.entry-illustration{transform:scale(.84);transform-origin:center;height:360px}.entry-chart-card{left:-15px}.entry-art{padding:25px 10px}.entry-goal-card{right:-8px}}
+@media(max-width:700px){.entry-page{padding:20px 14px}.entry-shell{grid-template-columns:1fr;min-height:0;max-width:470px}.entry-form{padding:32px 26px}.entry-content{padding:40px 0}.entry-art{display:none}.entry-content h1{font-size:28px}.entry-description{font-size:12px}.entry-logo{width:175px}}
+@media(prefers-reduced-motion:reduce){.entry-option,.entry-submit{transition:none}}
+.entry-art-caption h2{color:#d8bd6d}.entry-dots i:first-child{background:#c8a84b}
+
+/* Entrada distribuída pela tela, sem moldura externa. */
+.entry-page{padding:0;align-items:stretch}
+.entry-shell{width:100%;min-height:100svh;grid-template-columns:1fr 1fr;box-shadow:none}
+.entry-form{padding:clamp(32px,6vh,72px) clamp(32px,7vw,120px)}
+.entry-content{width:100%;max-width:440px;align-self:center;padding:48px 0}
+.entry-logo{width:200px}
+.entry-content h1{font-size:clamp(28px,2.5vw,38px)}
+.entry-art{padding:clamp(30px,5vh,65px) 35px;gap:15px}
+.entry-art-caption{margin-top:42px}
+@media(min-width:1500px){.entry-illustration{max-width:490px;height:410px}.entry-art-caption h2{font-size:34px}.entry-description{font-size:14px}}
+@media(max-width:1000px){.entry-page{padding:0}.entry-form{padding:36px 30px}.entry-art{padding:30px 12px}.entry-content h1{font-size:28px}}
+@media(max-width:700px){.entry-shell{max-width:none;grid-template-columns:1fr}.entry-form{min-height:100svh;padding:32px 24px}.entry-content{padding:40px 0}.entry-logo{width:175px}.entry-art{display:none}}
+/* Paleta escura da Cooprata. */
+.entry-page,.entry-shell{background:#1a1a1f;color:#e8e8f0}
+.entry-form{background:#1a1a1f}
+.entry-eyebrow{color:#b6a477}
+.entry-description{color:#aaa7b2}
+.entry-options legend{color:#d8d5de}
+.entry-option{border-color:#3a3a44;background:#23232b}
+.entry-option:hover{background:#2d2b25;border-color:#b99c49}
+.entry-option.is-selected{background:#302c20;border-color:#c8a84b}
+.entry-option-text strong{color:#eeeae1}
+.entry-option-text small{color:#b1ac9f}
+.entry-option-icon{background:#c8a84b16;color:#d0b05a}
+.entry-radio{border-color:#736a51}
+.is-selected .entry-radio{background:#201e18}
+.entry-login-note,.entry-footer{color:#a29b8b}
+.entry-chart-card,.entry-goal-card{background:#27272e;color:#eeeae1;border:1px solid #414047}
+.entry-mock-label,.entry-chart-months,.entry-goal-card>span:not(:first-child){color:#b5ad98}
+.entry-goal-ring{border-color:#444034;border-bottom-color:#c8a84b;border-right-color:#c8a84b}
+.entry-bubble,.entry-mini-tag{background:#2d2c30;color:#d1b565;border:1px solid #494332}
