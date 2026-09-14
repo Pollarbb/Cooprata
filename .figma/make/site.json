@@ -1,0 +1,10 @@
+{
+  "description": "This web application allows users to input and visualize data in a dynamic dashboard format, similar to Power BI, enhancing data analysis and decision-making.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
